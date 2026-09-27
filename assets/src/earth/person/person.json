@@ -1,0 +1,49 @@
+[
+  {
+    "id": "person-wide",
+    "src": "candidates/B05_pexels_9935912.jpg",
+    "rotate_deg": 0.0,
+    "crop_px": [
+      468.85,
+      4.51,
+      3440.85,
+      2233.51
+    ],
+    "width_m": 8.805,
+    "label": "Someone on the grass",
+    "caption": "An adult human body is roughly 60% water by weight.",
+    "credit": "Photo by Sezat Khan on Pexels",
+    "license": "Pexels License (free to use; attribution not required)",
+    "source_url": "https://www.pexels.com/photo/9935912/",
+    "notes": "Straight-down drone photo (same shoot as `person`), 4:3 crop of the 4000x2250 original. Scale from body length ~1.68 m (~567 px); 2.96 mm/px. The close-up is aligned into it with SIFT (scale 2.540x, rotation 0.12 deg, residual ~1.3 px). A small piece of litter (top-left) was retouched out.",
+    "cleanup_px": [
+      [
+        540,
+        205,
+        27
+      ]
+    ]
+  },
+  {
+    "id": "person",
+    "src": "candidates/A10_pexels_9935913.jpg",
+    "rotate_deg": 0.0,
+    "crop_px": [
+      550,
+      0,
+      3550,
+      2250
+    ],
+    "width_m": 3.5,
+    "focus_px": [
+      1926,
+      993
+    ],
+    "label": "A person",
+    "caption": "An adult body is made of roughly 37 trillion cells.",
+    "credit": "Photo by Sezat Khan on Pexels",
+    "license": "Pexels License (free to use; attribution not required)",
+    "source_url": "https://www.pexels.com/photo/9935913/",
+    "notes": "Straight-down drone photo, 4:3 crop of the 4000x2250 original (1.17 mm/px, body ~1.68 m). focus = back of her left hand resting on her stomach (~155 px long, ~18 cm)."
+  }
+]

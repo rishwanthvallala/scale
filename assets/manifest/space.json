@@ -1,0 +1,144 @@
+[
+  {
+    "id": "cosmic-web",
+    "file": "assets/levels/cosmic-web.jpg",
+    "px": [
+      2084,
+      2084
+    ],
+    "label": "Cosmic Web",
+    "caption": "Galaxies trace a cosmic web: filaments of matter wrapped around vast empty voids.",
+    "width_m": 8.5741e+25,
+    "focus": [
+      0.6334,
+      0.69
+    ],
+    "blend": "add",
+    "credit": "FLAMINGO project / Virgo Consortium (Schaye et al. 2023, MNRAS 526, 4978)",
+    "license": "CC BY 4.0",
+    "source_url": "https://flamingo.strw.leidenuniv.nl/image_gallery.html",
+    "notes": "Background of Fig. 1 of Schaye et al. 2023 (open-access MNRAS, CC BY 4.0; file images/SEC0IMG8_full.png, 2100 px): 40 Mpc-thick slice of the full 2.8 Gpc box at z=0 (CDM brightness, neutrino density as colour). The 2100 px image spans the full 2.8 Gpc (checked against the 1 Gpc bar in Fig. 1: 457/1280 px). Cropped 8 px per side to remove a blue edge line, so 2084 px = 2778.7 Mpc. A hue-preserving luminance black point (27th percentile, gamma 1.3) turns the blue void fog black. About 1/10 the diameter of the observable universe, so it is labelled 'Cosmic Web'. Focus = bright yellow cluster node near the centre. The website gives no explicit licence; CC BY 4.0 comes from the published figure."
+  },
+  {
+    "id": "large-scale-structure",
+    "file": "assets/levels/large-scale-structure.jpg",
+    "px": [
+      2000,
+      2000
+    ],
+    "label": "Cosmic Filaments",
+    "caption": "Gas streams along filaments into galaxy clusters, the densest knots of the cosmic web.",
+    "width_m": 9.3381e+24,
+    "focus": [
+      0.5022,
+      0.496
+    ],
+    "blend": "add",
+    "credit": "D. Nelson / IllustrisTNG Collaboration (TNG300-1)",
+    "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+    "source_url": "https://www.tng-project.org/media/",
+    "notes": "OPTIONAL BRIDGE LEVEL (not in the original list) that splits the x56 jump from cosmic-web to supercluster. The file is boxImage_TNG300-1_gas-coldens_thinSlice_2000.png: gas column density in a 100 kpc thin slice across the full TNG300-1 box (205 cMpc/h = 302.6 Mpc) at z=0, centred on the most massive cluster. No crop. The constant navy floor (6,14,19) was subtracted per channel. Focus = the central massive cluster."
+  },
+  {
+    "id": "supercluster",
+    "file": "assets/levels/supercluster.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Supercluster",
+    "caption": "Every speck is a galaxy, strung along filaments spanning 160 million light-years.",
+    "width_m": 1.5428e+24,
+    "focus": [
+      0.324,
+      0.5472
+    ],
+    "blend": "add",
+    "credit": "D. Nelson / IllustrisTNG Collaboration (TNG100-1)",
+    "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+    "source_url": "https://www.tng-project.org/media/",
+    "notes": "boxImage_TNG100-1_stars-coldens_3840.png: stellar mass column density (stars only), described as 'a 50 Mpc region', z=0. width_m assumes the 50 Mpc is the horizontal width (3840 px). Cluster ICL sizes (~2 Mpc) support this, but it is not confirmed and could be about \u00b110%. The background is already pure black (the grey+alpha PNG was composited onto black). No crop. Focus = the most massive cluster (large ICL blob, left of centre)."
+  },
+  {
+    "id": "galaxy-cluster",
+    "file": "assets/levels/galaxy-cluster.jpg",
+    "px": [
+      1920,
+      1920
+    ],
+    "label": "Galaxy Cluster",
+    "caption": "A galaxy cluster: hundreds of galaxies held by 200 trillion Suns' worth of mass.",
+    "width_m": 7.3444e+22,
+    "focus": [
+      0.7592,
+      0.6436
+    ],
+    "blend": "add",
+    "credit": "D. Nelson, G. Joshi / IllustrisTNG Collaboration (TNG50-1)",
+    "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+    "source_url": "https://www.tng-project.org/media/",
+    "notes": "OPTIONAL BRIDGE LEVEL (not in the original list) that splits the ~x300 jump from supercluster to galaxy-group. It is the left panel (1920x1920) of TNG50_z0_2clusters_stars_4k.png: stellar light of the most massive TNG50 halo (log M = 14.3) at z=0. Two virial-radius circles and the corner text/scale bar were removed with OpenCV Telea inpainting. Scale: the 300 kpc bar was 242 px, so 1920 px = 2.380 Mpc. A gentle luminance black point was applied (8th percentile, gamma 1.1). The diffuse grey glow is real intracluster light. Focus = a bright satellite galaxy with close neighbours, lower right."
+  },
+  {
+    "id": "galaxy-group",
+    "file": "assets/levels/galaxy-group.jpg",
+    "px": [
+      4096,
+      3927
+    ],
+    "label": "Galaxy Group",
+    "caption": "Stephan's Quintet: a group of galaxies colliding 290 million light-years away.",
+    "width_m": 5.0599e+21,
+    "focus": [
+      0.564,
+      0.303
+    ],
+    "blend": "add",
+    "credit": "NASA, ESA, CSA, and STScI",
+    "license": "CC BY 4.0",
+    "source_url": "https://esawebb.org/images/weic2208a/",
+    "notes": "JWST NIRCam+MIRI mosaic weic2208a (12654x12132 original, 6.34 x 6.08 arcmin), resized to 4096 px wide. width_m = 6.34 arcmin at 290 Mly, the distance of the interacting members. NGC 7320 (left) is a foreground galaxy at 40 Mly, so the scale does not apply to it. Per-channel black point at the sky level (12,11,10). Contains foreground stars with JWST diffraction spikes. Focus = nucleus of NGC 7319, the barred spiral at the top of the group."
+  },
+  {
+    "id": "milky-way",
+    "file": "assets/levels/milky-way-gaia.jpg",
+    "px": [
+      5000,
+      5000
+    ],
+    "label": "Milky Way",
+    "caption": "Our galaxy is over 100,000 light-years across and holds some 100\u2013400 billion stars.",
+    "width_m": 1.2126e+21,
+    "focus": [
+      0.5,
+      0.7036
+    ],
+    "blend": "add",
+    "credit": "ESA/Gaia/DPAC, Stefan Payne-Wardenaar",
+    "license": "CC BY-SA 3.0 IGO",
+    "source_url": "https://www.esa.int/ESA_Multimedia/Images/2025/01/The_best_Milky_Way_map_by_Gaia",
+    "notes": "Swapped in for the R. Hurt concept (blotchy when magnified). Sun located by fitting the distance rings of the labelled twin: centre (2500,3518)/5000; rings = 5/10/20 kpc at 127.2 px/kpc (Sun-GC 1037 px = 8.15 kpc) -> width 1.2126e21 m.",
+    "maxUpscale": 9
+  },
+  {
+    "id": "moon",
+    "file": "assets/levels/moon.jpg",
+    "px": [
+      2400,
+      2400
+    ],
+    "label": "The Moon",
+    "caption": "The Moon is 3,474 km across, about a quarter as wide as Earth.",
+    "width_m": 3896300.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "add",
+    "role": "extra",
+    "credit": "Gregory H. Revera",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+    "notes": "Full Moon photo from 2010-10-22 (Celestron 9.25 SCT, 20 stacked frames), original 2580x2452. Cropped to a 2400x2400 square with the disk centred (disk centre at 0.5002, 0.4998). A least-squares circle fit to the limb (threshold 30/255) gives a disk diameter of 2140.4 px (thresholds 15 and 60 give 2143.5 and 2138.3 px), so width_m = 3.4748e6 m x 2400 / 2140.4. Background already pure black (0). No resampling. ShareAlike applies to derivatives."
+  }
+]

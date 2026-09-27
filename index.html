@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scale of Everything</title>
+  <meta name="description" content="Scroll from the cosmic web to the atomic nucleus in one continuous zoom.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%239cc8ff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23f2f1ee'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="gl" aria-label="Zoom view"></canvas>
+  <div id="scroller" aria-hidden="true"></div>
+  <div id="labels" aria-hidden="true"></div>
+
+  <div id="hud">
+    <header class="brand">
+      <span class="brand-mark"></span>
+      <span>Scale of Everything</span>
+    </header>
+
+    <section class="story" aria-live="polite">
+      <div class="story-power" id="story-power"></div>
+      <h1 id="story-label"></h1>
+      <p id="story-caption"></p>
+    </section>
+
+    <section class="scale">
+      <div class="scale-bar"><span id="scale-bar"></span></div>
+      <div class="scale-text"><span id="scale-len"></span></div>
+      <div class="fov"><span class="fov-k">Field of view</span> <span id="fov"></span></div>
+      <div class="pow" id="pow"></div>
+    </section>
+
+    <nav class="ruler" id="ruler" aria-label="Jump to scale"></nav>
+
+    <div class="intro" id="intro">
+      <p class="intro-kicker">From 10<sup>26</sup> m to 10<sup>−15</sup> m</p>
+      <h2>Scroll to fall through the universe</h2>
+      <div class="intro-hint"><span class="wheel"></span>Scroll, swipe, or press Space to play</div>
+    </div>
+
+    <div class="loading" id="loading"><span></span></div>
+
+    <footer class="tools">
+      <button id="btn-play" type="button" aria-pressed="false" title="Play / pause (Space)">Play</button>
+      <button id="btn-credits" type="button">Image credits</button>
+      <button id="btn-editor" type="button" title="Alignment editor (E)">Align</button>
+    </footer>
+  </div>
+
+  <div id="credits" class="panel" hidden>
+    <div class="panel-head">
+      <h3>Image credits</h3>
+      <button type="button" data-close>Close</button>
+    </div>
+    <ol id="credits-list"></ol>
+  </div>
+
+  <div id="editor" class="panel editor" hidden>
+    <div class="panel-head">
+      <h3>Align <span id="ed-pair"></span></h3>
+      <button type="button" data-close>Close</button>
+    </div>
+    <p class="ed-help">Drag on the view to move the <b>inner</b> image. Alt + wheel scales it, Shift + wheel rotates. Scroll still zooms. Changes apply live; export when done.</p>
+    <label>Position x <input id="ed-x" type="number" step="0.001"></label>
+    <label>Position y <input id="ed-y" type="number" step="0.001"></label>
+    <label>Width (m) <input id="ed-w" type="text"></label>
+    <label>Rotation (°) <input id="ed-r" type="number" step="0.5"></label>
+    <label>Feather <input id="ed-f" type="range" min="0.05" max="0.95" step="0.01"></label>
+    <label>Fade in start <input id="ed-fa" type="range" min="0" max="0.6" step="0.005"></label>
+    <label>Fade in end <input id="ed-fb" type="range" min="0.01" max="1" step="0.005"></label>
+    <label>Color match <input id="ed-cm" type="range" min="0" max="1" step="0.05"></label>
+    <label class="check"><input id="ed-ghost" type="checkbox"> Show inner image at 50% (ghost)</label>
+    <div class="ed-actions">
+      <button id="ed-export" type="button">Download scene.json</button>
+      <button id="ed-copy" type="button">Copy layer JSON</button>
+    </div>
+  </div>
+
+  <noscript><p class="noscript">This experience needs JavaScript and WebGL2.</p></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

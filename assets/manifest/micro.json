@@ -1,0 +1,341 @@
+[
+  {
+    "id": "hand",
+    "file": "assets/levels/hand.jpg",
+    "px": [
+      3400,
+      3400
+    ],
+    "label": "A hand",
+    "caption": "Each hand has 27 bones and about 17,000 touch receptors.",
+    "width_m": 0.2,
+    "focus": [
+      0.588,
+      0.368
+    ],
+    "rot": -30,
+    "blend": "normal",
+    "transition": "dissolve",
+    "credit": "Photo on Pexels (13765731)",
+    "license": "Pexels License (free to use; attribution not required)",
+    "source_url": "https://www.pexels.com/photo/close-up-of-hand-touching-bare-skin-13765731/",
+    "notes": "Bridge between the drone photo of the person (3.5 m) and skin-macro (2.3 cm), which was a 152x jump. Square crop (600,600)-(4000,4000) of the 4000x6000 original; scale from fingernail width (~1.2 cm) and hand length, about 0.06 mm/px -> 0.20 m. Rotated -30 deg so the fingers point the same way as the woman's hand in person.jpg. focus = skin on the back of the hand."
+  },
+  {
+    "id": "skin-macro",
+    "file": "assets/levels/skin-macro.jpg",
+    "px": [
+      4096,
+      2304
+    ],
+    "label": "Skin",
+    "caption": "The back of a hand: a landscape of ridges, furrows and fine hairs.",
+    "width_m": 0.023,
+    "focus": [
+      0.585,
+      0.47
+    ],
+    "blend": "normal",
+    "credit": "Montavius Howard (TongCreator), via Pixabay / Wikimedia Commons",
+    "license": "CC0 1.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg",
+    "notes": "Phone macro (LG G4). No scale bar: width estimated from the vellus hair (~5.7 px thick at 5312 px, assumed ~25 um => ~4.4 um/px => ~23 mm) cross-checked with skin-furrow polygon size (~1.5 mm). Uncertain by ~+/-40%. Focus: sharp furrow-crossing just below the root of the visible hair."
+  },
+  {
+    "id": "skin-closeup",
+    "file": "assets/levels/skin-closeup.jpg",
+    "px": [
+      1920,
+      1080
+    ],
+    "label": "Skin surface",
+    "caption": "Dry skin flakes: the outer layer is made of dead, flattened cells.",
+    "width_m": 0.0055,
+    "focus": [
+      0.64,
+      0.42
+    ],
+    "blend": "normal",
+    "credit": "Clump, via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_skin_closeup.jpg",
+    "notes": "Close-up photo of dry skin on the back of a hand. No scale bar: width estimated from furrow spacing (~350 px between primary furrows, taken as ~1 mm) => ~5.5 mm. Colour warmed slightly toward skin-macro. Focus on a flaky plateau beside a diagonal furrow (resembles the NCI SEM)."
+  },
+  {
+    "id": "skin-sem",
+    "file": "assets/levels/skin-sem.jpg",
+    "px": [
+      1800,
+      2150
+    ],
+    "label": "Skin (electron microscope)",
+    "caption": "Under an electron microscope, skin looks like cracked, flaking terrain.",
+    "width_m": 0.0005014,
+    "focus": [
+      0.72,
+      0.3
+    ],
+    "blend": "normal",
+    "credit": "Bruce Wetzel & Harry Schaefer, National Cancer Institute (NIH)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Skin_surface_(human).jpg",
+    "notes": "SEM of human skin surface. 100 um scale bar = 359 px (measured) on 1800 px width => 501 um. Cropped bottom 99 px (scale bar/label). Focus on the steep diagonal skin ridge crest (upper right), which lines up with the hair shaft in hair-sem."
+  },
+  {
+    "id": "hair-sem",
+    "file": "assets/levels/hair-sem.jpg",
+    "px": [
+      2048,
+      1240
+    ],
+    "label": "Human hair",
+    "caption": "A single hair is armoured with overlapping scales called the cuticle.",
+    "width_m": 0.0001506,
+    "focus": [
+      0.6,
+      0.42
+    ],
+    "blend": "normal",
+    "credit": "Nicola Angeli / MUSE - Museo delle Scienze, Trento (Wikimedia Commons)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Human_hair_2000X_-_SEM_MUSE.tif",
+    "notes": "ZEISS SEM, 2000x. 10 um scale bar = 136 px on 2048 px => 150.6 um wide. Cropped to y<1240 to remove the data bar and the green in-image scale bar. The hair runs the same diagonal as the skin ridge in skin-sem. Focus on cuticle scale edges mid-shaft."
+  },
+  {
+    "id": "bacteria",
+    "file": "assets/levels/bacteria.jpg",
+    "px": [
+      2835,
+      1670
+    ],
+    "label": "Bacteria",
+    "caption": "Staphylococcus bacteria: millions live on your skin right now.",
+    "width_m": 2.531e-05,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "CDC / Janice Carr, Deepak Mandhalapu (Public Health Image Library #7820)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MRSA7820.jpg",
+    "notes": "SEM 4780x of MRSA (Staphylococcus aureus). 5 um bar = 560 px on 2835 px => 25.3 um. Cropped data bar (y>=1670)."
+  },
+  {
+    "id": "staph-cluster",
+    "file": "assets/levels/staph-cluster.jpg",
+    "px": [
+      1420,
+      940
+    ],
+    "label": "Staph cluster",
+    "caption": "Staphylococcus grows in grape-like bunches; each ball is one cell.",
+    "width_m": 5.547e-06,
+    "focus": [
+      0.7,
+      0.6
+    ],
+    "blend": "normal",
+    "credit": "CDC / Matthew J. Arduino, DrPH (Public Health Image Library)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_VISA_2.jpg",
+    "notes": "Colorized SEM 20000x of VISA S. aureus. 1 um bar = 256 px on 1420 px => 5.55 um. Cropped data bar (y>=940)."
+  },
+  {
+    "id": "bacterium",
+    "file": "assets/levels/bacterium.jpg",
+    "px": [
+      1420,
+      945
+    ],
+    "label": "Bacterium",
+    "caption": "One bacterium is about a thousandth of a millimetre across.",
+    "width_m": 2.24e-06,
+    "focus": [
+      0.34,
+      0.47
+    ],
+    "blend": "normal",
+    "credit": "CDC / Matthew J. Arduino, DrPH (Public Health Image Library)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_VISA.jpg",
+    "notes": "Colorized SEM 50000x of the same VISA S. aureus sample. 500 nm bar = 317 px on 1420 px => 2.24 um. Cropped data bar (y>=945)."
+  },
+  {
+    "id": "phages",
+    "file": "assets/levels/phages.jpg",
+    "px": [
+      1480,
+      1733
+    ],
+    "label": "Bacteriophages",
+    "caption": "Viruses that hunt bacteria latch on and inject their DNA.",
+    "width_m": 1e-06,
+    "focus": [
+      0.23,
+      0.604
+    ],
+    "blend": "normal",
+    "credit": "Graham Beards, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+    "notes": "TEM (~200,000x) of phages attached to a bacterial cell wall. No scale bar: phage heads are ~95 px; taking a typical ~65 nm capsid gives ~0.68 nm/px => ~1.0 um wide (+/-30%)."
+  },
+  {
+    "id": "virus",
+    "file": "assets/levels/virus.jpg",
+    "px": [
+      2021,
+      1870
+    ],
+    "label": "T2 bacteriophage",
+    "caption": "A virus is a protein shell packed with genes, plus a tail to inject them.",
+    "width_m": 3.128e-07,
+    "focus": [
+      0.605,
+      0.338
+    ],
+    "blend": "normal",
+    "credit": "SnaxMikn, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Enterobacteria_phage_T2_transmission_electron_micrograph.jpg",
+    "notes": "Negative-stain TEM of phage T2. 100 nm bar = 646 px on 2021 px => 313 nm. Cropped the scale bar (y>=1870)."
+  },
+  {
+    "id": "dna-strands",
+    "file": "assets/levels/dna-strands.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "DNA",
+    "caption": "DNA strands: 2 nm wide, yet each of your cells packs about 2 metres of it.",
+    "width_m": 6e-08,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+    "license": "CC0 (original render; PDB data is public domain)",
+    "source_url": "https://www.rcsb.org/structure/1BNA",
+    "notes": "Render, 60 nm field (orthographic, exact). All-heavy-atom B-DNA, ~90k atoms, CPK space-filling, world-space AO + shadow map. Atomic coordinates: base pairs from PDB 1BNA (Drew et al. 1981, B-DNA dodecamer) placed along smooth 3D curves. Same scene/lighting as dna-helix and atoms, so the zoom nests exactly; focus = centre of the dna-helix view."
+  },
+  {
+    "id": "dna-helix",
+    "file": "assets/levels/dna-helix.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Double helix",
+    "caption": "The double helix: two sugar-phosphate backbones twisted around paired bases.",
+    "width_m": 8e-09,
+    "focus": [
+      0.5267,
+      0.6164
+    ],
+    "blend": "normal",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+    "license": "CC0 (original render; PDB data is public domain)",
+    "source_url": "https://www.rcsb.org/structure/1BNA",
+    "notes": "Render, 8 nm field of the same scene as dna-strands (hero strand through the origin). Screw fitted from 1BNA: 35.4 deg/bp, 3.37 A rise. Focus = projected centre of the atoms view."
+  },
+  {
+    "id": "atoms",
+    "file": "assets/levels/atoms.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Atoms",
+    "caption": "Each ball is one atom: carbon (grey), oxygen (red), nitrogen (blue), phosphorus (gold).",
+    "width_m": 1.6e-09,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+    "license": "CC0 (original render; PDB data is public domain)",
+    "source_url": "https://www.rcsb.org/structure/1BNA",
+    "notes": "Render, 1.6 nm field of the same scene; spheres at van der Waals radii (C 1.70, N 1.55, O 1.52, P 1.80 A). Centred on a front-facing sugar carbon; focus = that carbon (becomes the atom level)."
+  },
+  {
+    "id": "atom",
+    "file": "assets/levels/atom.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Carbon atom",
+    "caption": "A carbon atom: six electrons in a fuzzy cloud around a nucleus 50,000x smaller.",
+    "width_m": 6e-10,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "add",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+    "license": "CC0 (original render)",
+    "source_url": "",
+    "notes": "Generated. Projected electron density of ground-state carbon (1s2 2s2 2p2; hydrogen-like orbitals with Clementi-Raimondi effective charges), log tone-mapped so the glow fades at ~1.75 A (the vdW radius of the carbon sphere in 'atoms'). 0.6 nm field. Nucleus drawn as a tiny bright point (true size would be ~1/50,000 of the cloud). Black background for additive blending.",
+    "maxUpscale": 30
+  },
+  {
+    "id": "nucleus",
+    "file": "assets/levels/nucleus.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Nucleus",
+    "caption": "The carbon nucleus: 6 protons and 6 neutrons carrying 99.97% of the atom's mass.",
+    "width_m": 1.2e-14,
+    "focus": [
+      0.5674,
+      0.4637
+    ],
+    "blend": "add",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+    "license": "CC0 (original render)",
+    "source_url": "",
+    "notes": "Generated. Carbon-12: 12 nucleons (r = 0.86 fm) relaxed into a close-packed cluster, sphere renderer + bloom; protons warm red, neutrons grey-blue. 12 fm field (nucleus ~5.5 fm across). Focus = a front-facing proton.",
+    "dot": {
+      "color": [
+        1.0,
+        0.78,
+        0.6
+      ],
+      "halo": 3.0,
+      "intensity": 1.6
+    },
+    "dotLabel": {
+      "text": "Nucleus",
+      "range": [
+        2e-13,
+        3e-11
+      ]
+    }
+  },
+  {
+    "id": "proton",
+    "file": "assets/levels/proton.jpg",
+    "px": [
+      3840,
+      2160
+    ],
+    "label": "Proton",
+    "caption": "Inside a proton: three quarks bound by gluons, the strongest force in nature.",
+    "width_m": 3.6e-15,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "add",
+    "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+    "license": "CC0 (original render)",
+    "source_url": "",
+    "notes": "Illustrative render (no real image exists). Fuzzy sphere of charge radius 0.84 fm, three valence quarks in the three colour charges joined by a Y-shaped gluon flux tube, faint sea-quark pairs. 3.6 fm field."
+  }
+]

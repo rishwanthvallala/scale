@@ -1,0 +1,1225 @@
+{
+ "title": "Scale of Everything",
+ "layers": [
+  {
+   "id": "cosmic-web",
+   "label": "Cosmic Web",
+   "caption": "Galaxies trace a cosmic web: filaments of matter wrapped around vast empty voids.",
+   "src": "assets/levels/graded/cosmic-web.jpg",
+   "src2k": "assets/levels/2k/cosmic-web.jpg",
+   "px": [
+    2084,
+    2084
+   ],
+   "width": 8.5741e+25,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "add",
+   "credit": "FLAMINGO project / Virgo Consortium (Schaye et al. 2023, MNRAS 526, 4978)",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://flamingo.strw.leidenuniv.nl/image_gallery.html"
+  },
+  {
+   "id": "large-scale-structure",
+   "label": "Cosmic Filaments",
+   "caption": "Gas streams along filaments into galaxy clusters, the densest knots of the cosmic web.",
+   "src": "assets/levels/graded/large-scale-structure.jpg",
+   "src2k": "assets/levels/2k/large-scale-structure.jpg",
+   "px": [
+    2000,
+    2000
+   ],
+   "width": 9.3381e+24,
+   "at": [
+    0.6334,
+    0.69
+   ],
+   "blend": "add",
+   "credit": "D. Nelson / IllustrisTNG Collaboration (TNG300-1)",
+   "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+   "sourceUrl": "https://www.tng-project.org/media/"
+  },
+  {
+   "id": "supercluster",
+   "label": "Supercluster",
+   "caption": "Every speck is a galaxy, strung along filaments spanning 160 million light-years.",
+   "src": "assets/levels/graded/supercluster.jpg",
+   "src2k": "assets/levels/2k/supercluster.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 1.5428e+24,
+   "at": [
+    0.5022,
+    0.496
+   ],
+   "blend": "add",
+   "credit": "D. Nelson / IllustrisTNG Collaboration (TNG100-1)",
+   "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+   "sourceUrl": "https://www.tng-project.org/media/"
+  },
+  {
+   "id": "galaxy-cluster",
+   "label": "Galaxy Cluster",
+   "caption": "A galaxy cluster: hundreds of galaxies held by 200 trillion Suns' worth of mass.",
+   "src": "assets/levels/graded/galaxy-cluster.jpg",
+   "src2k": "assets/levels/2k/galaxy-cluster.jpg",
+   "px": [
+    1920,
+    1920
+   ],
+   "width": 7.3444e+22,
+   "at": [
+    0.324,
+    0.5472
+   ],
+   "blend": "add",
+   "credit": "D. Nelson, G. Joshi / IllustrisTNG Collaboration (TNG50-1)",
+   "license": "Free to share with credit ('TNG Collaboration'); non-commercial; commercial use requires contacting the TNG team",
+   "sourceUrl": "https://www.tng-project.org/media/"
+  },
+  {
+   "id": "galaxy-group",
+   "label": "Galaxy Group",
+   "caption": "Stephan's Quintet: a group of galaxies colliding 290 million light-years away.",
+   "src": "assets/levels/galaxy-group.jpg",
+   "src2k": "assets/levels/2k/galaxy-group.jpg",
+   "px": [
+    4096,
+    3927
+   ],
+   "width": 5.0599e+21,
+   "at": [
+    0.7592,
+    0.6436
+   ],
+   "blend": "add",
+   "credit": "NASA, ESA, CSA, and STScI",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://esawebb.org/images/weic2208a/"
+  },
+  {
+   "id": "milky-way",
+   "label": "Milky Way",
+   "caption": "Our galaxy is over 100,000 light-years across and holds some 100\u2013400 billion stars.",
+   "src": "assets/levels/milky-way-gaia.jpg",
+   "src2k": "assets/levels/2k/milky-way-gaia.jpg",
+   "px": [
+    5000,
+    5000
+   ],
+   "width": 1.2126e+21,
+   "at": [
+    0.564,
+    0.303
+   ],
+   "blend": "add",
+   "credit": "ESA/Gaia/DPAC, Stefan Payne-Wardenaar",
+   "license": "CC BY-SA 3.0 IGO",
+   "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2025/01/The_best_Milky_Way_map_by_Gaia",
+   "maxUpscale": 9
+  },
+  {
+   "id": "solar-system",
+   "label": "Solar System",
+   "caption": "The Sun holds 99.8% of all the mass in the Solar System.",
+   "width": 12500000000000.0,
+   "px": [
+    1,
+    1
+   ],
+   "at": [
+    0.5,
+    0.7036
+   ],
+   "blend": "none"
+  },
+  {
+   "id": "earth-moon",
+   "label": "Earth & Moon",
+   "caption": "Every other planet in the Solar System could fit between Earth and the Moon.",
+   "width": 1050000000.0,
+   "px": [
+    1,
+    1
+   ],
+   "at": [
+    0.5094307784662614,
+    0.5073681316624591
+   ],
+   "blend": "none"
+  },
+  {
+   "id": "earth-globe",
+   "label": "Earth",
+   "caption": "Earth is 12,742 km across. We are diving toward New York City.",
+   "src": "assets/levels/earth-globe.jpg",
+   "src2k": "assets/levels/2k/earth-globe.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 14500000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "add",
+   "credit": "NASA Earth Observatory - Blue Marble: Next Generation (R. Stockli), July 2004; NASA Goddard / Blue Marble: Clouds (R. Stockli, MODIS)",
+   "license": "Public domain (NASA)",
+   "sourceUrl": "https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74092/world.200407.3x21600x10800.jpg | https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_8192.tif",
+   "dot": {
+    "color": [
+     0.55,
+     0.72,
+     1.0
+    ],
+    "halo": 2.2,
+    "intensity": 1.5
+   },
+   "dotLabel": {
+    "text": "Earth",
+    "range": [
+     3000000000.0,
+     40000000000000.0
+    ]
+   }
+  },
+  {
+   "id": "earth-5000km",
+   "label": "North America",
+   "caption": "The Great Lakes hold about a fifth of the world's fresh surface water.",
+   "src": "assets/levels/earth-5000km.jpg",
+   "src2k": "assets/levels/2k/earth-5000km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 5000000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA Goddard / Blue Marble: Clouds (R. Stockli, MODIS)",
+   "license": "Public domain (NASA; GIBS imagery has no use restrictions)",
+   "sourceUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_8192.tif"
+  },
+  {
+   "id": "earth-1600km",
+   "label": "US East Coast",
+   "caption": "About 50 million people live along the Boston-to-Washington corridor.",
+   "src": "assets/levels/earth-1600km.jpg",
+   "src2k": "assets/levels/2k/earth-1600km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 1600000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NASA Blue Marble: Next Generation via NASA GIBS / Worldview",
+   "license": "Public domain (NASA; GIBS imagery has no use restrictions)",
+   "sourceUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg"
+  },
+  {
+   "id": "earth-500km",
+   "label": "New York region",
+   "caption": "The Hudson River meets the Atlantic at one of the largest natural harbors.",
+   "src": "assets/levels/earth-500km.jpg",
+   "src2k": "assets/levels/2k/earth-500km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 500000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+   "license": "Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+   "sourceUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png"
+  },
+  {
+   "id": "earth-160km",
+   "label": "New York metro area",
+   "caption": "Around 20 million people live in the New York metropolitan area.",
+   "src": "assets/levels/earth-160km.jpg",
+   "src2k": "assets/levels/2k/earth-160km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 160000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+   "license": "Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+   "sourceUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png"
+  },
+  {
+   "id": "earth-50km",
+   "label": "New York City",
+   "caption": "NYC's five boroughs cover about 780 km\u00b2 and are home to roughly 8.5 million people.",
+   "src": "assets/levels/earth-50km.jpg",
+   "src2k": "assets/levels/2k/earth-50km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 50000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "USGS The National Map: Orthoimagery (USDA NAIP); NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+   "license": "Public domain (USGS/USDA); Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+   "sourceUrl": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png"
+  },
+  {
+   "id": "earth-16km",
+   "label": "Manhattan",
+   "caption": "Manhattan is 21.6 km long and at most 3.7 km wide.",
+   "src": "assets/levels/earth-16km.jpg",
+   "src2k": "assets/levels/2k/earth-16km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 16000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "USGS The National Map: Orthoimagery (USDA NAIP)",
+   "license": "Public domain (USGS/USDA)",
+   "sourceUrl": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"
+  },
+  {
+   "id": "earth-5km",
+   "label": "Central Park",
+   "caption": "Central Park: 341 hectares of green, 4 km long and 0.8 km wide.",
+   "src": "assets/levels/earth-5km.jpg",
+   "src2k": "assets/levels/2k/earth-5km.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 5000.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+   "license": "CC BY 4.0 (NYC Open Data)",
+   "sourceUrl": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm"
+  },
+  {
+   "id": "earth-1600m",
+   "label": "Southern Central Park",
+   "caption": "About 18,000 trees grow in Central Park.",
+   "src": "assets/levels/earth-1600m.jpg",
+   "src2k": "assets/levels/2k/earth-1600m.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 1600.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+   "license": "CC BY 4.0 (NYC Open Data)",
+   "sourceUrl": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm"
+  },
+  {
+   "id": "earth-500m",
+   "label": "Sheep Meadow",
+   "caption": "Sheep Meadow: 15 acres of lawn where real sheep grazed until 1934.",
+   "src": "assets/levels/earth-500m.jpg",
+   "src2k": "assets/levels/2k/earth-500m.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 500.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+   "license": "CC BY 4.0 (NYC Open Data)",
+   "sourceUrl": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm"
+  },
+  {
+   "id": "earth-160m",
+   "label": "On the lawn",
+   "caption": "Sheep Meadow is a designated quiet zone, made for sunbathing and picnics.",
+   "src": "assets/levels/earth-160m.jpg",
+   "src2k": "assets/levels/2k/earth-160m.jpg",
+   "px": [
+    4096,
+    4096
+   ],
+   "width": 160.0,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+   "license": "CC BY 4.0 (NYC Open Data)",
+   "sourceUrl": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm"
+  },
+  {
+   "id": "person-wide",
+   "label": "Someone on the grass",
+   "caption": "An adult human body is roughly 60% water by weight.",
+   "src": "assets/levels/person-wide.jpg",
+   "src2k": "assets/levels/2k/person-wide.jpg",
+   "px": [
+    2972,
+    2229
+   ],
+   "width": 8.805,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "Photo by Sezat Khan on Pexels",
+   "license": "Pexels License (free to use; attribution not required)",
+   "sourceUrl": "https://www.pexels.com/photo/9935912/",
+   "transition": "dissolve"
+  },
+  {
+   "id": "person",
+   "label": "A person",
+   "caption": "An adult body is made of roughly 37 trillion cells.",
+   "src": "assets/levels/person.jpg",
+   "src2k": "assets/levels/2k/person.jpg",
+   "px": [
+    3000,
+    2250
+   ],
+   "width": 3.5,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "Photo by Sezat Khan on Pexels",
+   "license": "Pexels License (free to use; attribution not required)",
+   "sourceUrl": "https://www.pexels.com/photo/9935913/",
+   "transition": "dissolve"
+  },
+  {
+   "id": "hand",
+   "label": "A hand",
+   "caption": "Each hand has 27 bones and about 17,000 touch receptors.",
+   "src": "assets/levels/hand.jpg",
+   "src2k": "assets/levels/2k/hand.jpg",
+   "px": [
+    3400,
+    3400
+   ],
+   "width": 0.2,
+   "at": [
+    0.4587,
+    0.4413
+   ],
+   "blend": "normal",
+   "credit": "Photo on Pexels (13765731)",
+   "license": "Pexels License (free to use; attribution not required)",
+   "sourceUrl": "https://www.pexels.com/photo/close-up-of-hand-touching-bare-skin-13765731/",
+   "rot": -30,
+   "transition": "dissolve"
+  },
+  {
+   "id": "skin-macro",
+   "label": "Skin",
+   "caption": "The back of a hand: a landscape of ridges, furrows and fine hairs.",
+   "src": "assets/levels/skin-macro.jpg",
+   "src2k": "assets/levels/2k/skin-macro.jpg",
+   "px": [
+    4096,
+    2304
+   ],
+   "width": 0.023,
+   "at": [
+    0.588,
+    0.368
+   ],
+   "blend": "normal",
+   "credit": "Montavius Howard (TongCreator), via Pixabay / Wikimedia Commons",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "skin-closeup",
+   "label": "Skin surface",
+   "caption": "Dry skin flakes: the outer layer is made of dead, flattened cells.",
+   "src": "assets/levels/skin-closeup.jpg",
+   "src2k": "assets/levels/2k/skin-closeup.jpg",
+   "px": [
+    1920,
+    1080
+   ],
+   "width": 0.0055,
+   "at": [
+    0.585,
+    0.47
+   ],
+   "blend": "normal",
+   "credit": "Clump, via Wikimedia Commons",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hand_skin_closeup.jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "skin-sem",
+   "label": "Skin (electron microscope)",
+   "caption": "Under an electron microscope, skin looks like cracked, flaking terrain.",
+   "src": "assets/levels/skin-sem.jpg",
+   "src2k": "assets/levels/2k/skin-sem.jpg",
+   "px": [
+    1800,
+    2150
+   ],
+   "width": 0.0005014,
+   "at": [
+    0.64,
+    0.42
+   ],
+   "blend": "normal",
+   "credit": "Bruce Wetzel & Harry Schaefer, National Cancer Institute (NIH)",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skin_surface_(human).jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "hair-sem",
+   "label": "Human hair",
+   "caption": "A single hair is armoured with overlapping scales called the cuticle.",
+   "src": "assets/levels/hair-sem.jpg",
+   "src2k": "assets/levels/2k/hair-sem.jpg",
+   "px": [
+    2048,
+    1240
+   ],
+   "width": 0.0001506,
+   "at": [
+    0.72,
+    0.3
+   ],
+   "blend": "normal",
+   "credit": "Nicola Angeli / MUSE - Museo delle Scienze, Trento (Wikimedia Commons)",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_hair_2000X_-_SEM_MUSE.tif",
+   "transition": "dissolve"
+  },
+  {
+   "id": "bacteria",
+   "label": "Bacteria",
+   "caption": "Staphylococcus bacteria: millions live on your skin right now.",
+   "src": "assets/levels/bacteria.jpg",
+   "src2k": "assets/levels/2k/bacteria.jpg",
+   "px": [
+    2835,
+    1670
+   ],
+   "width": 2.531e-05,
+   "at": [
+    0.6,
+    0.42
+   ],
+   "blend": "normal",
+   "credit": "CDC / Janice Carr, Deepak Mandhalapu (Public Health Image Library #7820)",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MRSA7820.jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "staph-cluster",
+   "label": "Staph cluster",
+   "caption": "Staphylococcus grows in grape-like bunches; each ball is one cell.",
+   "src": "assets/levels/staph-cluster.jpg",
+   "src2k": "assets/levels/2k/staph-cluster.jpg",
+   "px": [
+    1420,
+    940
+   ],
+   "width": 5.547e-06,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "CDC / Matthew J. Arduino, DrPH (Public Health Image Library)",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_VISA_2.jpg",
+   "transition": "dissolve",
+   "grade": {
+    "saturation": 0.0
+   }
+  },
+  {
+   "id": "bacterium",
+   "label": "Bacterium",
+   "caption": "One bacterium is about a thousandth of a millimetre across.",
+   "src": "assets/levels/bacterium.jpg",
+   "src2k": "assets/levels/2k/bacterium.jpg",
+   "px": [
+    1420,
+    945
+   ],
+   "width": 2.24e-06,
+   "at": [
+    0.7,
+    0.6
+   ],
+   "blend": "normal",
+   "credit": "CDC / Matthew J. Arduino, DrPH (Public Health Image Library)",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_VISA.jpg",
+   "transition": "dissolve",
+   "grade": {
+    "saturation": 0.0
+   }
+  },
+  {
+   "id": "phages",
+   "label": "Bacteriophages",
+   "caption": "Viruses that hunt bacteria latch on and inject their DNA.",
+   "src": "assets/levels/phages.jpg",
+   "src2k": "assets/levels/2k/phages.jpg",
+   "px": [
+    1480,
+    1733
+   ],
+   "width": 1e-06,
+   "at": [
+    0.34,
+    0.47
+   ],
+   "blend": "normal",
+   "credit": "Graham Beards, via Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phage.jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "virus",
+   "label": "T2 bacteriophage",
+   "caption": "A virus is a protein shell packed with genes, plus a tail to inject them.",
+   "src": "assets/levels/virus.jpg",
+   "src2k": "assets/levels/2k/virus.jpg",
+   "px": [
+    2021,
+    1870
+   ],
+   "width": 3.128e-07,
+   "at": [
+    0.23,
+    0.604
+   ],
+   "blend": "normal",
+   "credit": "SnaxMikn, via Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enterobacteria_phage_T2_transmission_electron_micrograph.jpg",
+   "transition": "dissolve"
+  },
+  {
+   "id": "dna-strands",
+   "label": "DNA",
+   "caption": "DNA strands: 2 nm wide, yet each of your cells packs about 2 metres of it.",
+   "src": "assets/levels/dna-strands.jpg",
+   "src2k": "assets/levels/2k/dna-strands.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 6e-08,
+   "at": [
+    0.605,
+    0.338
+   ],
+   "blend": "normal",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+   "license": "CC0 (original render; PDB data is public domain)",
+   "sourceUrl": "https://www.rcsb.org/structure/1BNA",
+   "transition": "dissolve"
+  },
+  {
+   "id": "dna-helix",
+   "label": "Double helix",
+   "caption": "The double helix: two sugar-phosphate backbones twisted around paired bases.",
+   "src": "assets/levels/dna-helix.jpg",
+   "src2k": "assets/levels/2k/dna-helix.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 8e-09,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "normal",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+   "license": "CC0 (original render; PDB data is public domain)",
+   "sourceUrl": "https://www.rcsb.org/structure/1BNA",
+   "transition": "dissolve"
+  },
+  {
+   "id": "atoms",
+   "label": "Atoms",
+   "caption": "Each ball is one atom: carbon (grey), oxygen (red), nitrogen (blue), phosphorus (gold).",
+   "src": "assets/levels/atoms.jpg",
+   "src2k": "assets/levels/2k/atoms.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 1.6e-09,
+   "at": [
+    0.5267,
+    0.6164
+   ],
+   "blend": "normal",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro); coordinates from RCSB PDB 1BNA",
+   "license": "CC0 (original render; PDB data is public domain)",
+   "sourceUrl": "https://www.rcsb.org/structure/1BNA",
+   "transition": "dissolve"
+  },
+  {
+   "id": "atom",
+   "label": "Carbon atom",
+   "caption": "A carbon atom: six electrons in a fuzzy cloud around a nucleus 50,000x smaller.",
+   "src": "assets/levels/atom.jpg",
+   "src2k": "assets/levels/2k/atom.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 6e-10,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "add",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+   "license": "CC0 (original render)",
+   "sourceUrl": "",
+   "maxUpscale": 30,
+   "transition": "dissolve"
+  },
+  {
+   "id": "nucleus",
+   "label": "Nucleus",
+   "caption": "The carbon nucleus: 6 protons and 6 neutrons carrying 99.97% of the atom's mass.",
+   "src": "assets/levels/nucleus.jpg",
+   "src2k": "assets/levels/2k/nucleus.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 1.2e-14,
+   "at": [
+    0.5,
+    0.5
+   ],
+   "blend": "add",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+   "license": "CC0 (original render)",
+   "sourceUrl": "",
+   "dot": {
+    "color": [
+     1.0,
+     0.78,
+     0.6
+    ],
+    "halo": 3.0,
+    "intensity": 1.6
+   },
+   "dotLabel": {
+    "text": "Nucleus",
+    "range": [
+     2e-13,
+     3e-11
+    ]
+   },
+   "transition": "dissolve"
+  },
+  {
+   "id": "proton",
+   "label": "Proton",
+   "caption": "Inside a proton: three quarks bound by gluons, the strongest force in nature.",
+   "src": "assets/levels/proton.jpg",
+   "src2k": "assets/levels/2k/proton.jpg",
+   "px": [
+    3840,
+    2160
+   ],
+   "width": 3.6e-15,
+   "at": [
+    0.5674,
+    0.4637
+   ],
+   "blend": "add",
+   "credit": "Generated for this project (numpy sphere/volume renderer in assets/src/micro)",
+   "license": "CC0 (original render)",
+   "sourceUrl": "",
+   "transition": "dissolve"
+  }
+ ],
+ "extras": [
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 695700000.0,
+   "halo": 5,
+   "color": [
+    1.0,
+    0.93,
+    0.82
+   ],
+   "intensity": 2.4,
+   "spikes": 0.35,
+   "range": [
+    1000000000.0,
+    4e+19
+   ],
+   "label": "Sun",
+   "labelRange": [
+    200000000000.0,
+    3e+16
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 57894375960.9,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    4135312568.6357145,
+    23157750384360.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    -54402917875.462814,
+    -19801042763.897163
+   ],
+   "radius": 2440000.0,
+   "halo": 1.8,
+   "color": [
+    0.75,
+    0.72,
+    0.68
+   ],
+   "intensity": 1.2,
+   "range": [
+    4135312568.6357145,
+    3473662557654.0
+   ],
+   "label": "Mercury",
+   "labelRange": [
+    5789437596.09,
+    1447359399022.5
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 108159260516.09999,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    7725661465.435714,
+    43263704206440.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    -54079630258.04997,
+    93668667261.4818
+   ],
+   "radius": 6050000.0,
+   "halo": 1.8,
+   "color": [
+    1.0,
+    0.93,
+    0.78
+   ],
+   "intensity": 1.2,
+   "range": [
+    7725661465.435714,
+    6489555630965.999
+   ],
+   "label": "Venus",
+   "labelRange": [
+    10815926051.609999,
+    2703981512902.5
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 149597870700.0,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    10685562192.857143,
+    59839148280000.0
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 227987154946.80002,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    16284796781.914288,
+    91194861978720.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    113993577473.40004,
+    -197442667920.46786
+   ],
+   "radius": 3390000.0,
+   "halo": 1.8,
+   "color": [
+    1.0,
+    0.62,
+    0.45
+   ],
+   "intensity": 1.2,
+   "range": [
+    16284796781.914288,
+    13679229296808.002
+   ],
+   "label": "Mars",
+   "labelRange": [
+    22798715494.68,
+    5699678873670.0
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 778357721252.1001,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    55596980089.43572,
+    311343088500840.06
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    -674077559836.0856,
+    389178860626.05
+   ],
+   "radius": 69900000.0,
+   "halo": 1.8,
+   "color": [
+    1.0,
+    0.88,
+    0.72
+   ],
+   "intensity": 1.2,
+   "range": [
+    55596980089.43572,
+    46701463275126.01
+   ],
+   "label": "Jupiter",
+   "labelRange": [
+    77835772125.21,
+    19458943031302.504
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 1426714892865.9001,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    101908206633.27858,
+    570685957146360.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    -487965232142.861,
+    -1340673456791.4443
+   ],
+   "radius": 58200000.0,
+   "halo": 1.8,
+   "color": [
+    1.0,
+    0.9,
+    0.7
+   ],
+   "intensity": 1.2,
+   "range": [
+    101908206633.27858,
+    85602893571954.02
+   ],
+   "label": "Saturn",
+   "labelRange": [
+    142671489286.59003,
+    35667872321647.5
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 2870783138733.0,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    205055938480.92856,
+    1148313255493200.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    981865660566.374,
+    2697653731344.009
+   ],
+   "radius": 25400000.0,
+   "halo": 1.8,
+   "color": [
+    0.7,
+    0.9,
+    1.0
+   ],
+   "intensity": 1.2,
+   "range": [
+    205055938480.92856,
+    172246988323980.0
+   ],
+   "label": "Uranus",
+   "labelRange": [
+    287078313873.3,
+    71769578468325.0
+   ]
+  },
+  {
+   "kind": "ring",
+   "frame": "solar-system",
+   "pos": [
+    0,
+    0
+   ],
+   "radius": 4498407971949.0,
+   "color": [
+    0.55,
+    0.7,
+    1.0
+   ],
+   "alpha": 0.28,
+   "widthPx": 1.1,
+   "range": [
+    321314855139.2143,
+    1799363188779600.0
+   ]
+  },
+  {
+   "kind": "glow",
+   "frame": "solar-system",
+   "pos": [
+    3895735580294.269,
+    -2249203985974.502
+   ],
+   "radius": 24600000.0,
+   "halo": 1.8,
+   "color": [
+    0.5,
+    0.65,
+    1.0
+   ],
+   "intensity": 1.2,
+   "range": [
+    321314855139.2143,
+    269904478316940.0
+   ],
+   "label": "Neptune",
+   "labelRange": [
+    449840797194.9,
+    112460199298725.0
+   ]
+  },
+  {
+   "kind": "image",
+   "frame": "earth-moon",
+   "pos": [
+    314882045.82468843,
+    -220482782.1333421
+   ],
+   "width": 3896300.0,
+   "src": "assets/levels/moon.jpg",
+   "src2k": "assets/levels/2k/moon.jpg",
+   "blend": "add",
+   "feather": 0.08,
+   "range": [
+    2000000.0,
+    4000000000.0
+   ],
+   "label": "Moon",
+   "labelRange": [
+    500000000.0,
+    50000000000.0
+   ],
+   "credit": "Gregory H. Revera",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+   "id": "moon"
+  },
+  {
+   "kind": "glow",
+   "frame": "earth-moon",
+   "pos": [
+    314882045.82468843,
+    -220482782.1333421
+   ],
+   "radius": 1737400.0,
+   "halo": 1.4,
+   "color": [
+    0.8,
+    0.8,
+    0.78
+   ],
+   "intensity": 1.0,
+   "range": [
+    2000000000.0,
+    400000000000.0
+   ]
+  }
+ ],
+ "starfield": {
+  "frame": "solar-system",
+  "octaves": [
+   16.5,
+   20.75
+  ],
+  "step": 0.25,
+  "perOctave": 3500,
+  "void": 3.8e+16,
+  "range": [
+   2000000000000000.0,
+   5e+20
+  ],
+  "seed": 11,
+  "warpRange": [
+   30000000000000.0,
+   2e+20
+  ],
+  "warpRate": 0.9,
+  "warpAlpha": 1.0,
+  "warpCount": 1600
+ }
+}

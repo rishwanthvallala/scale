@@ -1,0 +1,15 @@
+# Raw downloads, map-tile caches and intermediates (~700 MB).
+# The tools re-create them; only the scripts and small metadata are kept.
+assets/src/**
+!assets/src/**/
+!assets/src/**/*.py
+!assets/src/earth/person/person.json
+
+# Test output
+screenshots/
+qa-out/
+**/.profile/
+
+# Python
+__pycache__/
+*.pyc

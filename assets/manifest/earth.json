@@ -1,0 +1,262 @@
+[
+  {
+    "id": "earth-globe",
+    "file": "assets/levels/earth-globe.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "Earth",
+    "caption": "Earth is 12,742 km across. We are diving toward New York City.",
+    "width_m": 14500000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "add",
+    "credit": "NASA Earth Observatory - Blue Marble: Next Generation (R. Stockli), July 2004; NASA Goddard / Blue Marble: Clouds (R. Stockli, MODIS)",
+    "license": "Public domain (NASA)",
+    "source_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74092/world.200407.3x21600x10800.jpg | https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_8192.tif",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 3540 m/px (effective source resolution ~3.54e+03 m/px). Sources: bmng_eq (61%). Colours tone-matched to earth-5000km inside its footprint; earth-5000km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -280.9 m E, +241.1 m N. NASA Blue Marble cloud layer, faded out within 1250 km of the target so the dive is clear. Simple atmosphere: limb darkening, blue haze and rim glow; black space."
+  },
+  {
+    "id": "earth-5000km",
+    "file": "assets/levels/earth-5000km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "North America",
+    "caption": "The Great Lakes hold about a fifth of the world's fresh surface water.",
+    "width_m": 5000000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA Goddard / Blue Marble: Clouds (R. Stockli, MODIS)",
+    "license": "Public domain (NASA; GIBS imagery has no use restrictions)",
+    "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_8192.tif",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 1221 m/px (effective source resolution ~1.22e+03 m/px). Sources: gibs_bmng z7 (100%). Colours tone-matched to earth-1600km inside its footprint; earth-1600km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: +165.6 m E, -90.9 m N. NASA Blue Marble cloud layer, faded out within 1250 km of the target so the dive is clear."
+  },
+  {
+    "id": "earth-1600km",
+    "file": "assets/levels/earth-1600km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "US East Coast",
+    "caption": "About 50 million people live along the Boston-to-Washington corridor.",
+    "width_m": 1600000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NASA Blue Marble: Next Generation via NASA GIBS / Worldview",
+    "license": "Public domain (NASA; GIBS imagery has no use restrictions)",
+    "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 390.6 m/px (effective source resolution ~463 m/px). Sources: gibs_bmng z8 (100%). Colours tone-matched to earth-500km inside its footprint; earth-500km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: +2.1 m E, -131.9 m N."
+  },
+  {
+    "id": "earth-500km",
+    "file": "assets/levels/earth-500km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "New York region",
+    "caption": "The Hudson River meets the Atlantic at one of the largest natural harbors.",
+    "width_m": 500000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+    "license": "Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+    "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 122.1 m/px (effective source resolution ~122 m/px). Sources: weld z11 (90%), gibs_bmng z8 (62%), water (32%). Colours tone-matched to earth-160km inside its footprint; earth-160km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -0.2 m E, +0.9 m N."
+  },
+  {
+    "id": "earth-160km",
+    "file": "assets/levels/earth-160km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "New York metro area",
+    "caption": "Around 20 million people live in the New York metropolitan area.",
+    "width_m": 160000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+    "license": "Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+    "source_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 39.06 m/px (effective source resolution ~39.1 m/px). Sources: weld z12 (99%), gibs_bmng z8 (79%), water (21%). Colours tone-matched to earth-50km inside its footprint; earth-50km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -9.8 m E, -12.8 m N."
+  },
+  {
+    "id": "earth-50km",
+    "file": "assets/levels/earth-50km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "New York City",
+    "caption": "NYC's five boroughs cover about 780 km² and are home to roughly 8.5 million people.",
+    "width_m": 50000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "USGS The National Map: Orthoimagery (USDA NAIP); NASA/USGS Global Web-Enabled Landsat Data (GWELD) annual 2000 true colour, via NASA GIBS; NASA Blue Marble: Next Generation via NASA GIBS / Worldview; NASA MODIS 250 m land/water mask (MOD44W) via NASA GIBS",
+    "license": "Public domain (USGS/USDA); Public domain (NASA/USGS Landsat); Public domain (NASA; GIBS imagery has no use restrictions); Public domain (NASA)",
+    "source_url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg | https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Water_Mask/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 12.21 m/px (effective source resolution ~12.2 m/px). Sources: usgs z14 (99%), weld z12 (5%), gibs_bmng z8 (96%), water (5%). Colours tone-matched to earth-16km inside its footprint; earth-16km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: +1.2 m E, -2.5 m N."
+  },
+  {
+    "id": "earth-16km",
+    "file": "assets/levels/earth-16km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "Manhattan",
+    "caption": "Manhattan is 21.6 km long and at most 3.7 km wide.",
+    "width_m": 16000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "USGS The National Map: Orthoimagery (USDA NAIP)",
+    "license": "Public domain (USGS/USDA)",
+    "source_url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 3.906 m/px (effective source resolution ~3.91 m/px). Sources: usgs z16 (100%). Colours tone-matched to earth-5km inside its footprint; earth-5km (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -7.3 m E, +3.3 m N."
+  },
+  {
+    "id": "earth-5km",
+    "file": "assets/levels/earth-5km.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "Central Park",
+    "caption": "Central Park: 341 hectares of green, 4 km long and 0.8 km wide.",
+    "width_m": 5000.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+    "license": "CC BY 4.0 (NYC Open Data)",
+    "source_url": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 1.221 m/px (effective source resolution ~1.22 m/px). Sources: nyc2018 z17 (100%). Colours tone-matched to earth-1600m inside its footprint; earth-1600m (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -0.1 m E, +0.1 m N."
+  },
+  {
+    "id": "earth-1600m",
+    "file": "assets/levels/earth-1600m.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "Southern Central Park",
+    "caption": "About 18,000 trees grow in Central Park.",
+    "width_m": 1600.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+    "license": "CC BY 4.0 (NYC Open Data)",
+    "source_url": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 0.3906 m/px (effective source resolution ~0.391 m/px). Sources: nyc2018 z19 (100%). Colours tone-matched to earth-500m inside its footprint; earth-500m (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -0.0 m E, +0.0 m N."
+  },
+  {
+    "id": "earth-500m",
+    "file": "assets/levels/earth-500m.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "Sheep Meadow",
+    "caption": "Sheep Meadow: 15 acres of lawn where real sheep grazed until 1934.",
+    "width_m": 500.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+    "license": "CC BY 4.0 (NYC Open Data)",
+    "source_url": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 0.1221 m/px (effective source resolution ~0.152 m/px). Sources: nyc2018 z20 (100%). Colours tone-matched to earth-160m inside its footprint; earth-160m (down-sampled) is feathered into the centre so the dissolve has no pop. Measured registration of the raw sources vs the next level: -0.0 m E, +0.0 m N."
+  },
+  {
+    "id": "earth-160m",
+    "file": "assets/levels/earth-160m.jpg",
+    "px": [
+      4096,
+      4096
+    ],
+    "label": "On the lawn",
+    "caption": "Sheep Meadow is a designated quiet zone, made for sunbathing and picnics.",
+    "width_m": 160.0,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "NYC Office of Technology & Innovation (OTI), 2018 Orthoimagery (6-inch, Apr-May 2018)",
+    "license": "CC BY 4.0 (NYC Open Data)",
+    "source_url": "https://data.cityofnewyork.us/City-Government/2018-Orthoimagery-Manhattan/hxws-3mbm",
+    "notes": "Orthographic projection centred on 40.771840, -73.975180 (sphere R=6371008.8 m), north-up; 0.03906 m/px (effective source resolution ~0.152 m/px). Sources: nyc2018 z20 (100%). The person-wide drone photo (down-sampled, softened to the aerial resolution) is feathered into the centre, so the person is already visible and the dissolve is seamless."
+  },
+  {
+    "id": "person-wide",
+    "file": "assets/levels/person-wide.jpg",
+    "px": [
+      2972,
+      2229
+    ],
+    "label": "Someone on the grass",
+    "caption": "An adult human body is roughly 60% water by weight.",
+    "width_m": 8.805,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blend": "normal",
+    "credit": "Photo by Sezat Khan on Pexels",
+    "license": "Pexels License (free to use; attribution not required)",
+    "source_url": "https://www.pexels.com/photo/9935912/",
+    "notes": "Straight-down drone photo (same shoot as `person`), 4:3 crop of the 4000x2250 original. Scale from body length ~1.68 m (~567 px); 2.96 mm/px. The close-up is aligned into it with SIFT (scale 2.540x, rotation 0.12 deg, residual ~1.3 px). A small piece of litter (top-left) was retouched out. 2972x2229 crop; grass colour-graded toward the Sheep Meadow lawn of earth-160m (Lab mean [43.7, -17.5, 40.5] -> [38.1, -24.8, 27.7]). The person photo (same shoot, SIFT-aligned) is feathered into the centre for a seamless dissolve."
+  },
+  {
+    "id": "person",
+    "file": "assets/levels/person.jpg",
+    "px": [
+      3000,
+      2250
+    ],
+    "label": "A person",
+    "caption": "An adult body is made of roughly 37 trillion cells.",
+    "width_m": 3.5,
+    "focus": [
+      0.4587,
+      0.4413
+    ],
+    "blend": "normal",
+    "credit": "Photo by Sezat Khan on Pexels",
+    "license": "Pexels License (free to use; attribution not required)",
+    "source_url": "https://www.pexels.com/photo/9935913/",
+    "notes": "Straight-down drone photo, 4:3 crop of the 4000x2250 original (1.17 mm/px, body ~1.68 m). focus = back of her left hand resting on her stomach (~155 px long, ~18 cm). 3000x2250 crop; grass colour-graded toward the Sheep Meadow lawn of earth-160m (Lab mean [40.1, -16.6, 36.6] -> [38.1, -24.8, 27.7])."
+  }
+]
